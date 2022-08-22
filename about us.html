@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+  <html lang="en">
+ 
+<head>
+   <style type="text/css">
+      body {
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+}
+
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+.column {
+   float: left;
+   width: 33.3%;
+   margin-bottom: 16px;
+   padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+   </style>
+</head>
+  
+   <!-- body -->
+   <body >
+
+
+
+
+
+
+<div class="about-section">
+  <h1 style="background-color: red; opacity: 50%;">About Us</h1>
+  <p>We plan on providing a user interface on a website from where the customers can order fresh organic fruits and vegetables directly to their house at a price almost same as the market.</p>
+  <p>we intend to make a place where you can register for the delivery of farm products at a regular interval chosen by you.
+For example if you choose the span of 3 days and save the farm products which you want to order in a cart, the items will be delivered to your doorstep.
+This can help to provide the customers as well as the local marketers and farmers to increase their sale.</p>
+<p>Along with it we have an idea to decrease the wastage of fruits and vegetables.
+For example: if someone wants to buy a product at a short notice and in a small amount, the vendors or farmers will provide the products which are good and cannot be sold as consumers refuse to buy it.
+by this method the seller can sell and it can also be consumed fully with minimal wastage.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <!-- <img src="/w3images/team1.jpg"  style="width:100%"> -->
+      <div class="container">
+        <h2>Prashant Kumar</h2>
+        <p class="title">Founder</p>
+        <p></p>
+        <p>prashant1043.be21@chitkara.edu.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <!-- <img src="/w3images/team2.jpg"  style="width:100%"> -->
+      <div class="container">
+        <h2>Pratham Mehta</h2>
+        <p class="title">Co-founder</p>
+        <p></p>
+        <p>pratham1055.be21@chitkara.edu.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <!-- <img src="/w3images/team3.jpg"  style="width:100%"> -->
+      <div class="container">
+        <h2>Rahul Vij</h2>
+        <p class="title">Designer</p>
+        <p></p>
+        <p>rahul1125.be21@chitkara.edu.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <!-- <img src="/w3images/team2.jpg"  style="width:100%"> -->
+      <div class="container">
+        <h2>Pratham Goyal</h2>
+        <p class="title">Co-founder</p>
+        <p></p>
+        <p>pratham1052.be21@chitkara.edu.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+      
+   
+               
+                     
+   </body>
+</html>
